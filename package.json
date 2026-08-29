@@ -1,0 +1,21 @@
+{
+  "name": "kypher-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for KYPHER TECH SOLUTIONS - customer support & personal automation",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Kypher",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-schedule": "^2.1.1",
+    "express": "^4.19.2"
+  }
+}
